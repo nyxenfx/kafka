@@ -1,0 +1,13 @@
+/* ========================================
+   Radius Small
+   ======================================== */
+
+:root {
+	--corner-radius-full: 50px;
+	--corner-radius-extra-large: 16px;
+	--corner-radius-large: 10px;
+	--corner-radius-medium: 6px;
+	--corner-radius-small: 4px;
+	--corner-radius-extra-small: 2px;
+	--corner-radius-none: 0px;
+}

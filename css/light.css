@@ -1,0 +1,166 @@
+:root {
+	/* 
+    * @name light
+    * @description lighttheme
+    */
+	color-scheme: only light !important;
+	--scheme: light;
+
+	/* Core Colors */
+	--main: 255, 255, 255 !important;
+	--list-1: 214, 208, 196 !important;
+	--list-2: 193, 177, 150 !important;
+	--fonts: #1a1a1a;
+	--msg-hover: #D6D3CB;
+
+	/* Surface Colors */
+	--md-sys-color-surface: rgb(249, 249, 255);
+	--md-sys-color-on-surface: rgb(25, 28, 32);
+	--md-sys-color-surface-variant: rgb(224, 226, 236);
+	--md-sys-color-on-surface-variant: rgb(68, 71, 78);
+	--md-sys-color-surface-container: rgb(237, 237, 244);
+	--md-sys-color-surface-container-high: rgb(231, 232, 238);
+	--md-sys-color-surface-container-highest: rgb(226, 226, 233);
+	--md-sys-color-surface-container-low: rgb(243, 243, 250);
+	--md-sys-color-surface-container-lowest: rgb(255, 255, 255);
+
+	/* Primary Colors */
+	--md-sys-color-primary: rgb(65, 95, 145);
+	--md-sys-color-on-primary: rgb(255, 255, 255);
+	--md-sys-color-primary-container: rgb(214, 227, 255);
+	--md-sys-color-on-primary-container: rgb(40, 71, 119);
+
+	/* Secondary Colors */
+	--md-sys-color-secondary: rgb(86, 95, 113);
+	--md-sys-color-on-secondary: rgb(255, 255, 255);
+	--md-sys-color-secondary-container: rgb(218, 226, 249);
+	--md-sys-color-on-secondary-container: rgb(62, 71, 89);
+
+	/* Error Colors */
+	--md-sys-color-error: rgb(186, 26, 26);
+	--md-sys-color-on-error: rgb(255, 255, 255);
+	--md-sys-color-error-container: rgb(255, 218, 214);
+	--md-sys-color-on-error-container: rgb(147, 0, 10);
+
+	/* Outline */
+	--md-sys-color-outline: rgb(116, 119, 127);
+	--md-sys-color-outline-variant: rgb(196, 198, 208);
+
+	/* Inverse */
+	--md-sys-color-inverse-surface: rgb(46, 48, 54);
+	--md-sys-color-inverse-on-surface: rgb(240, 240, 247);
+
+	/* Corner Radius System */
+	--corner-radius-full: 50px;
+	--corner-radius-extra-large: 28px;
+	--corner-radius-large: 16px;
+	--corner-radius-medium: 12px;
+	--corner-radius-small: 8px;
+	--corner-radius-extra-small: 4px;
+	--corner-radius-none: 0px;
+
+	/* Layer Actions */
+	--layer-action-hover: 10%;
+	--layer-action-active: 20%;
+	--layer-action-disabled: 15%;
+
+	/* Shadows */
+	--elevated-shadow: unset;
+	--elevated-shadow-hover: unset;
+
+	/* Animations */
+	--animation-basic-slow: all .2s ease-in-out;
+	--animation-basic-medium: all .15s ease-in-out;
+	--animation-basic-fast: all .1s ease-in-out;
+
+	/* Glass Effect (macOS Dock Style) */
+	--glass-bg: rgba(255, 255, 255, 0.01);
+	--glass-border: rgba(0, 0, 0, 0.06);
+	--glass-blur: 20px;
+	--glass-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	--glass-highlight: rgba(255, 255, 255, 0.8);
+}
+
+
+.QsvsRVwbsApgKt1MhM0fz *:not(._1NBr0Hdw3P-7Q6P5UXs96Y *):not(._1NBr0Hdw3P-7Q6P5UXs96Y *):not(.MillenniumSettings *):not(.MillenniumDesktopSidebar *):not(.ModalPosition_Content *):not(.visible *):not(._3GCEyyVil-cCS-8hoI2Zo1 *):not(._3Rb_j3lgHaVVIud4Gla7_m *):not(._1fuML-ekRbTEzgzC597yGP *):not(._3b_pllMxcr_an1aQ5goWvB *) {
+	color: rgb(0, 0, 0) !important;
+}
+
+.friendlist *:not(.online *), .multiChatDialog *:not(.online *) {
+	color: rgb(0, 0, 0) !important;
+}
+
+._2Dd4T78PcCTUVgOtDGFY5j {
+	background: rgba(var(--main), 0.3) !important;
+}
+
+/* Game List Hover */
+._2-O4ZG0KrnSrzISHBKctFQ:hover {
+	background-color: rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Game List Selected */
+._1UBpAXP408Ez_L_mXhW5Q9 {
+	background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Game List Selected + Hover */
+._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ:hover {
+	background-color: rgba(0, 0, 0, 0.25) !important;
+}
+
+/* Game List - Installed Text */
+._2-O4ZG0KrnSrzISHBKctFQ._2ws8DONH9fxQjPXEmRpujE ._1vO6BoiVslZgs1kqDGdUs8 > span {
+	color: #000000 !important;
+	font-weight: bold !important;
+}
+
+/* Game List - Not Installed Text */
+._2-O4ZG0KrnSrzISHBKctFQ._5YTBr7WwIfzVU_3nUtAph ._1vO6BoiVslZgs1kqDGdUs8 > span {
+	color: #d0d0d0 !important;
+}
+
+._1HZy7BvOZuPT8feUwadL4W, .LibriMVXcLl1HB60ZUp78 {
+	background: transparent !important;
+}
+
+._1AYE16384J_ecLpN0sEYc5 {
+	background: radial-gradient(100% 80% at 64% 95%, rgba(148, 140, 128, 0.3) 0%, rgba(193, 185, 175, 0.5) 20%, rgba(219, 215, 208, 0.5) 100%);
+}
+
+._3oMUSjOFNB0E9LWcL2sE7, ._39Zk32AvV5cr6g-83IVRVS {
+	background: linear-gradient(to right, #E6600000 0%, #E6600040 18px, #E66000 18px, #E66000 22px);
+}
+
+._38t1mljBjmJfqjpVzMT1CG {
+	background: transparent;
+}
+
+._3fLo166MlaNqP8r8tTyRz {
+	background: rgba(216, 211, 202, 0.3) !important;
+}
+
+._3Tfp8-wTAttW3WVa_X9JVC, ._3oavRVhIS9tC3vBsFT4Ggi {
+	background: rgba(var(--main), 0.3) !important;
+}
+
+/* Dropdown Menu Text */
+._2yAm5LY_eu-Vg_52l0HFlM *,
+.PP7LM0Ow1K5qkR8WElLpt *,
+._2EstNjFIIZm_WUSKm5Wt7n * {
+	color: #1a1a1a !important;
+}
+
+/* Dropdown Menu Item Hover */
+.popup_menu_item:hover,
+._2yAm5LY_eu-Vg_52l0HFlM .popup_menu_item:hover,
+.PP7LM0Ow1K5qkR8WElLpt .popup_menu_item:hover {
+	background-color: rgba(0, 0, 0, 0.15) !important;
+	color: #000000 !important;
+}
+
+/* Light Theme Menu Background */
+._2yAm5LY_eu-Vg_52l0HFlM,
+.PP7LM0Ow1K5qkR8WElLpt {
+	background: rgba(255, 255, 255, 0.85) !important;
+}

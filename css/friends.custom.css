@@ -1,0 +1,335 @@
+/* ========================================
+   Friends & Chat
+   ======================================== */
+
+/* Background Image - Friends List */
+html.friendsui-container body {
+	background-image: url("../images/friends.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
+/* ========================================
+   Title Bar
+   ======================================== */
+
+/* Remove Focus Glow */
+.title-area-highlight,
+.statusHeaderGlow,
+.singleWindowFocusBar {
+	display: none;
+}
+
+/* Title Bar Controls */
+.friendsui-container .title-area .title-bar-actions, .DesktopUI .title-area .title-bar-actions {
+	margin-top: 4px;
+	margin-right: 6px;
+	gap: 7px;
+}
+
+.DesktopUI .title-area-icon, .friendsui-container .title-area-icon {
+	border-radius: var(--corner-radius-full);
+	width: 26px;
+	height: 26px;
+}
+
+/* ========================================
+   Friends List Header & Footer
+   ======================================== */
+
+.friendListHeaderContainer {
+	background-color: rgba(var(--main), 0.3) !important;
+	box-shadow: unset;
+}
+
+.friendListFooter {
+	background-color: rgba(var(--main), 0.3) !important;
+	box-shadow: unset;
+}
+
+/* Current User */
+.currentUserContainer {
+	border: unset;
+}
+
+/* ========================================
+   Friends Tabs
+   ======================================== */
+
+.activeTab, .friendsListSectionTitle {
+	background-color: rgba(var(--main), 0.7) !important;
+}
+
+/* Friends Title */
+.socialListTab.friendTab {
+	box-shadow: unset;
+	border-top-left-radius: var(--corner-radius-medium);
+	border-top-right-radius: var(--corner-radius-medium);
+}
+
+/* Search Container */
+.socialTabSearchContainer {
+	margin-top: 4px;
+}
+
+/* ========================================
+   Friends List & Chat List
+   ======================================== */
+
+.friendlistListContainer, .chatRoomListContainer {
+	background: rgba(var(--main), 0.5) !important;
+}
+
+/* Chat Room Group Avatar */
+.ChatRoomGroupAvatar_initials {
+	background: unset;
+	background-clip: unset;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+	text-shadow: unset;
+}
+
+/* ========================================
+   Chat Window
+   ======================================== */
+
+/* Chat Title Bar */
+.titleBarContainer.ChatTabs {
+	background-color: rgba(var(--main), 0.3) !important;
+	border: unset;
+	box-shadow: unset;
+}
+
+/* Chat Header - Hide */
+.chatWindow .chatHeader {
+	background: transparent !important;
+	display: none;
+}
+
+/* Chat Window */
+.chatWindow {
+	border-top-left-radius: var(--corner-radius-large);
+	border-top-right-radius: var(--corner-radius-large);
+}
+
+/* Chat Dialogs */
+.chatDialogs, .chatWindow {
+	background: transparent !important;
+}
+
+/* Sus Chat */
+._3wFuYH9O5rw8qUqBzD1L7w {
+	box-shadow: unset;
+}
+
+/* ========================================
+   Chat Tabs
+   ======================================== */
+
+.chatTabSetContainer.inclient {
+	margin-left: 18px;
+}
+
+._2XZq-_f6npaQdAgeRzKIkz {
+	border-top-left-radius: var(--corner-radius-medium);
+	border-top-right-radius: var(--corner-radius-medium);
+}
+
+/* Friend Tab */
+._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_ {
+	background-color: rgba(var(--main), 0.1) !important;
+}
+
+/* ========================================
+   Chat Input Area
+   ======================================== */
+
+/* Input Container */
+.chatEntry {
+	background-color: rgba(var(--main), 0.3) !important;
+}
+
+._3Ule3rolhZJiBN4yNNtk1s {
+	background-color: rgba(var(--main), 0.3) !important;
+	border: unset;
+	box-shadow: unset;
+	border-radius: var(--corner-radius-full);
+	order: 2;
+}
+
+/* Emoji & Special Content Buttons */
+.Aupswi7-c-w3XwNO5cp2i,
+._3zOBeq5W4cNK3lRz_7aroW {
+	background-color: transparent !important;
+	border-radius: var(--corner-radius-full) !important;
+}
+
+/* Avatar - Circle */
+.nibodjvvrm86uCfnnAn4g.avatarHolder {
+	border-radius: var(--corner-radius-full) !important;
+	position: relative;
+}
+
+._3h-QRJGxnVOIExtHD1R0f2.avatar {
+	border-radius: var(--corner-radius-full) !important;
+}
+
+/* Avatar Status - Bottom Right */
+._3xUpb5DWXPFNcHHIcv-9pe.avatarStatus {
+	position: absolute !important;
+	bottom: 0 !important;
+	right: 0 !important;
+	left: unset !important;
+	top: unset !important;
+	width: 10px !important;
+	height: 10px !important;
+	border-radius: 50% !important;
+	border: unset !important;
+	z-index: 1 !important;
+}
+
+/* Offline Status - Gray Fill */
+.nibodjvvrm86uCfnnAn4g.avatarHolder.offline ._3xUpb5DWXPFNcHHIcv-9pe.avatarStatus {
+	background: #898989 !important;
+}
+
+/* Away Status - Light Blue */
+.nibodjvvrm86uCfnnAn4g.awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe.avatarStatus {
+	background: #4C91AC !important;
+}
+
+/* Input Text Area */
+._113iuw_HlE_qSgt9cGWCSv {
+	margin-right: 92px;
+	border-radius: var(--corner-radius-full);
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	align-content: center;
+}
+
+/* Send Button */
+._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc {
+	border: unset;
+	outline: unset;
+	box-shadow: unset;
+	border-radius: var(--corner-radius-full);
+	background: rgba(var(--main), 0.5) !important;
+}
+
+/* Emoji & File Button */
+._2WfNoLBdfKwyutA6ho4aSH {
+	position: absolute;
+	top: 6px;
+	bottom: 0;
+	right: 72px;
+	background: unset;
+	border: unset;
+	outline: unset;
+	box-shadow: unset;
+}
+
+/* Voice Button */
+.ChatMessageEntryVoice {
+	background: unset;
+	border: unset;
+	outline: unset;
+	box-shadow: unset;
+}
+
+.VoiceToggle {
+	background: rgba(var(--main), 0.5) !important;
+	border: unset;
+	border-radius: var(--corner-radius-full);
+}
+
+/* ========================================
+   Chat Messages
+   ======================================== */
+
+/* Message Hover */
+.msg:hover {
+	background-color: var(--msg-hover) !important;
+	transition: var(--animation-basic-fast);
+}
+
+/* Chat History */
+.chatHistoryScroll {
+	background-color: rgba(var(--main), 0.5) !important;
+}
+
+/* Messages */
+.MultiUserChat .ChatMessageBlock .msg,
+.BBCodeImageWrapper {
+	background: transparent !important;
+}
+
+.MultiUserChat .ChatMessageBlock .msg .msgText:not(:has(.ChatMessageInvite):not(:has(.chatImageContainer))) {
+	padding: 10px 12px;
+}
+
+/* Message Bubble Radius */
+.MultiUserChat .ChatMessageBlock .msg .msgText {
+	border-radius: var(--corner-radius-large) !important;
+}
+
+/* Chat Images */
+.chatImageContainer,
+.chatImageContainer img,
+.MultiUserChat .ChatMessageBlock .msg .msgText:has(img) {
+	border-radius: var(--corner-radius-medium);
+}
+
+/* ========================================
+   Voice Controls
+   ======================================== */
+
+.OneOnOneVoiceRoomControls {
+	background: transparent;
+	box-shadow: unset;
+	padding-top: 6px;
+}
+
+.ChatMessageEntryVoice.pushToTalkEnabled .activeVoicePushToTalk,
+.ChatMessageEntryVoice.Active .VoiceControlPanelButton.ToggleVoiceOutputButton,
+.ChatMessageEntryVoice.Active .VoiceControlPanelButton.ToggleMicrophoneButton {
+	border-radius: var(--corner-radius-extra-large);
+}
+
+/* ========================================
+   Scroll & Misc
+   ======================================== */
+
+/* Scroll To Bottom */
+.ScrollToBottomButton {
+	right: 24px;
+	bottom: 6px;
+	left: unset !important;
+	top: unset !important;
+	box-shadow: unset;
+}
+
+.ScrollToBottomButton>span {
+	padding: 12px;
+	border-radius: var(--corner-radius-medium);
+	box-shadow: unset;
+}
+
+/* Time Divider */
+.timeDivision .preHorizDivider {
+	width: 38%;
+}
+
+/* Reactions */
+.UA15KlVbtDSJkqSpIAMIN {
+	border: unset;
+	border-radius: var(--corner-radius-small);
+}
+
+/* Options on Hold */
+._3qYm9oxf8MdyvQDJgbfCrF ._10OzYaCdn7cgVMec9ozEJG {
+	top: -28px;
+	right: -28px;
+	box-shadow: unset;
+	border: unset;
+	border-radius: var(--corner-radius-full);
+}

@@ -1,0 +1,631 @@
+/* ========================================
+   Library Root
+   ======================================== */
+
+/* Background Layers - Keep transparent for background image */
+._1ENHEsrSLcTRtPQFl1F-wL._1DvwQt0JN-Ogp_4tVZdkzX, ._3pXasCUulX4jjqO79s4q_F {
+	background: transparent !important;
+}
+
+/* Main Background Image */
+._3mz8wQ6Q44B8P7pzPP4Iyw {
+	background-image: url("../images/main.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+/* Hide Toolbar Separator */
+._2CmrnGY-Amtd83ScJkFvx2 {
+	display: none !important;
+}
+._3Z7VQ1IMk4E3HsHvrkLNgo, ._2CmrnGY-Amtd83ScJkFvx2, .UkR3sY319PuaUNuUWks2K, ._3vCzSrrXZzZjVJFZNg9SGu {
+	background: rgba(var(--main), 0.5) !important;
+	box-shadow: unset;
+	border: unset;
+}
+
+/* Title Bar Icon */
+.DesktopUI .title-area-icon, .title-area-icon {
+	border-radius: var(--corner-radius-full);
+	width: 24px;
+	height: 24px;
+}
+
+/* Window Control Buttons */
+.title-area .title-bar-actions {
+	gap: 7px;
+}
+
+/* ========================================
+   Toolbar Action Buttons
+   ======================================== */
+
+/* Volume / Big Picture / Notifications Buttons */
+._2Szzh5sKyGgnLUR870zbDE {
+	border-radius: var(--corner-radius-full) !important;
+	width: 24px !important;
+	height: 24px !important;
+	min-width: 24px !important;
+}
+
+/* Big Picture Button */
+._3LKQ3S_yqrebeNLF6aeiog,
+._3LKQ3S_yqrebeNLF6aeiog:hover {
+	border-radius: var(--corner-radius-full) !important;
+	width: 24px !important;
+	height: 24px !important;
+	min-width: 24px !important;
+}
+
+/* Account Dropdown */
+._3yD46y5pd3zOGR7CzKs0mC {
+	border-radius: var(--corner-radius-full) !important;
+}
+
+._3yD46y5pd3zOGR7CzKs0mC .avatarHolder {
+	border-radius: var(--corner-radius-full) !important;
+}
+
+._3yD46y5pd3zOGR7CzKs0mC .avatar {
+	border-radius: var(--corner-radius-full) !important;
+}
+
+._3yD46y5pd3zOGR7CzKs0mC svg._3x51wbt5DYyWC8JKwQ51ir {
+	border-radius: var(--corner-radius-full) !important;
+}
+
+/* ========================================
+   Play / Install / Stream Button
+   ======================================== */
+
+/* Main Action Button Container */
+._1FnJ6dPuknQFQ2RTpKTI16 {
+	border-radius: var(--corner-radius-medium) !important;
+	overflow: hidden !important;
+}
+
+/* Play / Install / All Action Buttons */
+._3ydigb6zZAjJ0JCDgHwSYA,
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX,
+.Z5iAXBkRFGnwpXsO8ANTl {
+	border-radius: var(--corner-radius-medium) !important;
+	box-shadow: unset !important;
+}
+
+/* Install / Download / Update / Play - All States */
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Cancel,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play {
+	border-radius: var(--corner-radius-medium) !important;
+	box-shadow: unset !important;
+}
+
+/* Dropdown Arrow Button */
+._2q-gZ3XJzlvSGHSF-GvSmi,
+._2q-gZ3XJzlvSGHSF-GvSmi._2AzIX5kl9k6JnxLfR5H4kX {
+	border-radius: var(--corner-radius-medium) !important;
+}
+
+/* Combined Button Styling - Works for ALL buttons with dropdown */
+._1FnJ6dPuknQFQ2RTpKTI16 ._3ydigb6zZAjJ0JCDgHwSYA {
+	border-top-left-radius: var(--corner-radius-medium) !important;
+	border-bottom-left-radius: var(--corner-radius-medium) !important;
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+}
+
+._1FnJ6dPuknQFQ2RTpKTI16 ._2q-gZ3XJzlvSGHSF-GvSmi {
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+	border-top-right-radius: var(--corner-radius-medium) !important;
+	border-bottom-right-radius: var(--corner-radius-medium) !important;
+}
+
+/* Single Button (No Dropdown) */
+._1FnJ6dPuknQFQ2RTpKTI16:not(:has(._2q-gZ3XJzlvSGHSF-GvSmi)) ._3ydigb6zZAjJ0JCDgHwSYA {
+	border-radius: var(--corner-radius-medium) !important;
+}
+
+/* ========================================
+   Left Sidebar - Library Navigation
+   ======================================== */
+
+/* Library List Top */
+._2TKEazUUS3TlniZfpc8OOe {
+	background: transparent !important;
+	box-shadow: unset;
+	padding: unset;
+	margin: 0px 5px;
+	height: unset;
+}
+
+/* Home & Collections Tabs */
+._3pSPluBgf0NeR1kkCLWMhR {
+	border-top-left-radius: var(--corner-radius-small);
+	border-bottom-left-radius: var(--corner-radius-small);
+	border-top-right-radius: var(--corner-radius-extra-small);
+	border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+
+._3pSPluBgf0NeR1kkCLWMhR._30KGSfPjPskFlnrSxBfkiK {
+	border-top-left-radius: var(--corner-radius-extra-small);
+	border-bottom-left-radius: var(--corner-radius-extra-small);
+	border-top-right-radius: var(--corner-radius-small);
+	border-bottom-right-radius: var(--corner-radius-small);
+}
+
+/* Game List Category */
+._2sYIghGVXJr6tsQVvcryy8, ._2sYIghGVXJr6tsQVvcryy8.sXMOsx8OIRalBMxO9yFY5, ._3km84Vscc0uS91f0RN_30C {
+	border: none !important;
+	box-shadow: unset;
+	background: linear-gradient(to right, rgba(var(--list-1), 0) 40%, rgba(var(--list-2), 0) 100%) !important;
+}
+
+/* Game List Items */
+._3x1HklzyDs4TEjACrRO2tB {
+	background: rgba(var(--main), 0.3) !important;
+}
+
+/* Game List Hover */
+._2-O4ZG0KrnSrzISHBKctFQ:hover {
+	background-color: rgba(var(--main), 0.15);
+	transition: var(--animation-basic-fast);
+}
+
+/* Game List Selected */
+._1UBpAXP408Ez_L_mXhW5Q9 {
+	box-shadow: unset;
+	background: rgba(var(--main), 0.2) !important;
+}
+
+._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ {
+	box-shadow: unset;
+}
+
+/* Game List - Installed Text */
+._2-O4ZG0KrnSrzISHBKctFQ._2ws8DONH9fxQjPXEmRpujE ._1vO6BoiVslZgs1kqDGdUs8 > span {
+	color: #ffffff !important;
+	font-weight: bold !important;
+}
+
+/* Game List - Not Installed Text */
+._2-O4ZG0KrnSrzISHBKctFQ._5YTBr7WwIfzVU_3nUtAph ._1vO6BoiVslZgs1kqDGdUs8 > span {
+	color: #d0d0d0 !important;
+}
+
+/* Search Bar */
+._20QAC4WMXm8qFE8waUT5oo {
+	gap: 4px;
+}
+
+._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS:has(.DialogInput_Wrapper) {
+	border-radius: var(--corner-radius-full);
+}
+
+._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS .DialogTextInputBase {
+	border-bottom: unset;
+}
+
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU {
+	border-radius: var(--corner-radius-full);
+}
+
+/* Library List Second Layer */
+._3Z7VQ1IMk4E3HsHvrkLNgo, ._2PF_m-I5yte3WnQhpcz8RC, ._20QAC4WMXm8qFE8waUT5oo {
+	background: rgba(var(--main), 0.5) !important;
+}
+
+/* Download Section */
+.RGNMWtyj73_-WdhflrmuY {
+	background: transparent !important;
+}
+
+/* ========================================
+   Right Side - Main Content
+   ======================================== */
+
+/* Main Content Area */
+._2Dd4T78PcCTUVgOtDGFY5j, ._2g5K_hJWc7jVo81zuejhk2 {
+	background: rgba(var(--main), 0.3) !important;
+	border-radius: 0;
+}
+
+/* Content Inner */
+._2gSXCB6PbOlMxslr8hm6dm {
+	background: transparent !important;
+}
+
+/* News Feed */
+._17uEBe5Ri8TMsnfELvs8-N {
+	background: transparent !important;
+}
+
+/* Add Shelf Button */
+._3Sb2o_mQ30IDRh0C72QUUu {
+	background: transparent !important;
+}
+
+/* Beta Content */
+._3lDczhulqraStjCitLYJ1K, ._2sNr7PFYcJZWNkEMCDVVPR {
+	background: transparent !important;
+}
+
+/* Game Content Middle */
+.Jbe--NUNw7sxbxGsMSjVa {
+	background: transparent !important;
+}
+
+/* ========================================
+   Downloads Section
+   ======================================== */
+
+/* Download Container */
+._1bq4x9pa4-9RLY-dXWUZTp {
+	background: transparent !important;
+}
+
+/* Speed Indicators */
+._3Mbhnlk1Go2j8yCdjthzc7, ._24D3LpyHe8-HbiQftVVsna {
+	background: transparent !important;
+}
+
+/* Download Items */
+._1VNuYHM6BPBOJspC6zPf5r {
+	background: transparent !important;
+	border-radius: var(--corner-radius-medium);
+}
+
+/* Download Buttons */
+._3Tfp8-wTAttW3WVa_X9JVC, ._3oavRVhIS9tC3vBsFT4Ggi {
+	border-radius: var(--corner-radius-full);
+}
+
+/* ========================================
+   Game Page Enhancements
+   ======================================== */
+
+/* Game Card Hover Effect */
+._7EGqd8bdiXJBd2fj5Hh8r:first-child:last-child {
+	border-radius: var(--corner-radius-medium);
+}
+
+._7EGqd8bdiXJBd2fj5Hh8r:first-child:not(:last-child) {
+	border-top-left-radius: var(--corner-radius-medium);
+	border-top-right-radius: var(--corner-radius-medium);
+	border-bottom-left-radius: var(--corner-radius-extra-small);
+	border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+
+._7EGqd8bdiXJBd2fj5Hh8r:not(:first-child):not(:last-child) {
+	border-top-left-radius: var(--corner-radius-extra-small);
+	border-top-right-radius: var(--corner-radius-extra-small);
+	border-bottom-left-radius: var(--corner-radius-extra-small);
+	border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+
+._7EGqd8bdiXJBd2fj5Hh8r:last-child:not(:first-child) {
+	border-top-left-radius: var(--corner-radius-extra-small);
+	border-top-right-radius: var(--corner-radius-extra-small);
+	border-bottom-left-radius: var(--corner-radius-medium);
+	border-bottom-right-radius: var(--corner-radius-medium);
+}
+
+/* Remove Box Shadow on Cards */
+._7EGqd8bdiXJBd2fj5Hh8r.MYyvJ6lNQZtM4MHwS-Y3g, ._7EGqd8bdiXJBd2fj5Hh8r:hover {
+	box-shadow: unset;
+}
+
+/* ========================================
+   Friends Who Played Section
+   ======================================== */
+
+
+
+/* Section Groups */
+._39bm0CkBxBjJsnPpAzoZlv {
+}
+
+/* Section Title */
+.nTb1NqsRSnwl0UTOYn_JA {
+}
+
+/* Avatar Holder - Circle */
+.nibodjvvrm86uCfnnAn4g.avatarHolder {
+	position: relative;
+}
+
+/* Avatar Image - Circle */
+._3h-QRJGxnVOIExtHD1R0f2.avatar {
+	border-radius: var(--corner-radius-full) !important;
+}
+
+/* Avatar Status - Bottom Right */
+._3xUpb5DWXPFNcHHIcv-9pe.avatarStatus {
+	position: absolute !important;
+	bottom: 0 !important;
+	right: 0 !important;
+	left: unset !important;
+	top: unset !important;
+	width: 10px !important;
+	height: 10px !important;
+	border-radius: 50% !important;
+	border: unset !important;
+	z-index: 1 !important;
+}
+
+/* Offline Status - Gray Fill */
+.nibodjvvrm86uCfnnAn4g.avatarHolder.offline ._3xUpb5DWXPFNcHHIcv-9pe.avatarStatus {
+	background: #898989 !important;
+}
+
+/* Away Status - Light Blue */
+.nibodjvvrm86uCfnnAn4g.awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe.avatarStatus {
+	background: #4C91AC !important;
+}
+
+/* Friends List Container */
+._1umjft7ymqKrhhjDroeBUO {
+}
+
+/* View All Friends Button */
+._3Cdin80d-hVsakHUZboheb {
+	border-radius: var(--corner-radius-full) !important;
+}
+
+/* ========================================
+   Achievements Section
+   ======================================== */
+
+/* Main Container */
+._5uvIN6jXDXzzck59F-nhv {
+	overflow: hidden !important;
+}
+
+/* Achievement Section Panel */
+._31ptFGGMZrSQc5BCX1e5lm {
+	border-radius: var(--corner-radius-medium) !important;
+	overflow: hidden !important;
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+/* Parent region container */
+._2r4TK4BAuU-J4FuF_O7v_5 {
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+/* Progress Bar Container */
+._38t1mljBjmJfqjpVzMT1CG {
+	border-radius: var(--corner-radius-medium) !important;
+}
+
+/* Achievement Cards Container */
+._3eVREaIAGyRjbf0bkFjR9Y {
+	border-radius: var(--corner-radius-medium) !important;
+	overflow: hidden !important;
+}
+
+/* Individual Achievement Card */
+._2H_ytAwp5tfeou0kdWjLl4 {
+	border-radius: var(--corner-radius-small) !important;
+	overflow: hidden !important;
+}
+
+/* Achievement Image Container */
+._1fEbX-PfpZ2FhkhttWcm-V {
+	border-radius: var(--corner-radius-small) !important;
+	overflow: hidden !important;
+}
+
+/* Achievement Image */
+._2V2sHETNfa62yMoDwSF3_t {
+	border-radius: var(--corner-radius-small) !important;
+}
+
+/* Achievement Icon Background */
+._2HUbCbZUn27MliiC8gRxGB {
+	border-radius: var(--corner-radius-small) !important;
+}
+
+/* Locked Achievement */
+._3llpbyrXsfwsh1apqHhPfB {
+	border-radius: var(--corner-radius-small) !important;
+	overflow: hidden !important;
+}
+
+/* "+16 / +81" More Button */
+.lZ2c49vTWJ60klQOY9l2K {
+	border-radius: var(--corner-radius-small) !important;
+	overflow: hidden !important;
+}
+
+._2gISWIeEzZ9PNuAzVuMaWd {
+	border-radius: var(--corner-radius-small) !important;
+}
+
+/* Section Divider */
+._3ca11X3AK6npLS3emMa5Lr {
+	border-radius: var(--corner-radius-medium) !important;
+}
+
+/* View My Achievements Button */
+.vzLedtsu3TtTlKLEKzIhH button._3Cdin80d-hVsakHUZboheb {
+	border-radius: var(--corner-radius-full) !important;
+}
+
+/* ========================================
+   Game Copy / DLC Badges
+   ======================================== */
+
+/* Badge Container */
+._2GRcKrPZsMSF6glMPRMZei {
+	border-radius: var(--corner-radius-small) !important;
+	overflow: hidden !important;
+}
+
+/* Badge Inner */
+.tvCvyQrDNndbXWp_b5__b {
+	border-radius: var(--corner-radius-small) !important;
+	overflow: hidden !important;
+}
+
+/* Badge Number */
+._3BPFqWN5T-x8njyrRYM1CX {
+	border-radius: var(--corner-radius-small) !important;
+}
+
+/* Badge Progress Bar */
+.kX-tIJx4a9vKVuUkKJARv {
+	border-radius: var(--corner-radius-small) !important;
+	overflow: hidden !important;
+}
+
+/* Progress Bar Inner */
+.mA39Hqv8LacDppegb_Q_Z {
+	border-radius: var(--corner-radius-small) !important;
+}
+
+/* Badge Count Label */
+._3zxPLsbnU5LuorR0_EPCEC {
+	border-radius: var(--corner-radius-full) !important;
+}
+
+/* ========================================
+   Dialog & Modal Enhancements
+   ======================================== */
+
+/* Dialog Border Radius */
+.ModalDialogPopup .DialogContent, .DialogContent:not([role="tabpanel"]), .DialogContentTransition:not(.OX7USkJ5dDP_icD00Gal6) {
+	border-radius: var(--corner-radius-extra-large);
+	overflow: hidden;
+	border: none;
+}
+
+/* Dialog Parent Container */
+.ModalPosition_Content {
+	border-radius: var(--corner-radius-extra-large);
+	overflow: hidden;
+	border: none;
+}
+
+/* Remove Dialog Line */
+div.ModalPosition_TopBar {
+	display: none;
+	background: unset;
+}
+
+/* ========================================
+   Button Enhancements
+   ======================================== */
+
+/* Standard Buttons */
+button.DialogButton {
+	border-radius: var(--corner-radius-full);
+}
+
+button.DialogButton::before {
+	box-shadow: unset;
+}
+
+/* Play/Install Buttons */
+._3ydigb6zZAjJ0JCDgHwSYA {
+	border-radius: var(--corner-radius-medium);
+}
+
+/* Dropdown Buttons */
+body .DialogDropDown, body .DialogDropDown:hover {
+	box-shadow: unset;
+	border-radius: var(--corner-radius-small);
+}
+
+/* ========================================
+   Scrollbar Styling
+   ======================================== */
+
+*::-webkit-scrollbar {
+	width: 14px !important;
+}
+
+*::-webkit-scrollbar-track {
+	border-radius: 8px !important;
+}
+
+*::-webkit-scrollbar-thumb {
+	border-radius: 8px !important;
+	border: 4px solid transparent !important;
+	background-clip: content-box !important;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+	border: 3px solid transparent !important;
+}
+
+/* ========================================
+   Notification Enhancements
+   ======================================== */
+
+/* Notification Cards */
+._1OOQPJx0nCNP9ME9toCmV7._2oeq2krreQD6wfDR7WIVT4 {
+	border-top-left-radius: var(--corner-radius-medium);
+	border-top-right-radius: var(--corner-radius-medium);
+	border-bottom-left-radius: var(--corner-radius-extra-small);
+	border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+
+._1OOQPJx0nCNP9ME9toCmV7._2Rof8JJgVaPehWzOAxOJBw {
+	border-top-left-radius: var(--corner-radius-extra-small);
+	border-top-right-radius: var(--corner-radius-extra-small);
+	border-bottom-left-radius: var(--corner-radius-extra-small);
+	border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+
+._1OOQPJx0nCNP9ME9toCmV7:not(._2oeq2krreQD6wfDR7WIVT4):not(._2Rof8JJgVaPehWzOAxOJBw) {
+	border-top-left-radius: var(--corner-radius-extra-small);
+	border-top-right-radius: var(--corner-radius-extra-small);
+	border-bottom-left-radius: var(--corner-radius-medium);
+	border-bottom-right-radius: var(--corner-radius-medium);
+}
+
+/* ========================================
+   Overlay Enhancements
+   ======================================== */
+
+.C9tvuqqEXGcrkcAtHrQ_R {
+	border-radius: var(--corner-radius-small);
+}
+
+.aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8- {
+	border: unset;
+	border-top-left-radius: var(--corner-radius-medium);
+	border-top-right-radius: var(--corner-radius-medium);
+}
+
+/* Achievements */
+._gDkIgrqhJq-FtbuR9wJi {
+	border-radius: var(--corner-radius-small);
+}
+
+._2Kmn7fJOkLT4KyWl467a9M {
+	border-radius: var(--corner-radius-medium);
+}
+
+/* Download Button */
+._3AjoLnMNKxYmNTGTJCLfgs {
+	border-radius: var(--corner-radius-small) !important;
+	overflow: hidden !important;
+}
