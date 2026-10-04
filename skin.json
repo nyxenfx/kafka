@@ -1,0 +1,107 @@
+{
+    "name": "Kafka-Theme",
+    "author": "Nyxen",
+    "description": "Kafka.",
+
+    "github": {
+        "owner": "aaeriih",
+        "repo_name": "umi-asanagi-theme"
+    },
+    "main_image": "https://github.com/nyxenfx/kafka/tree/main/images/Main.jpg",
+    "tags": [
+        "Background",
+        "Custom",
+        "Dark",
+        "Rounded"
+    ],
+    "version": "1.0.0",
+    "Steam-WebKit": "css/webkit.css",
+    "Patches": [
+        {
+            "MatchRegexString": ".*",
+            "TargetJs": "js/localizer.js"
+        },
+        {
+            "MatchRegexString": "^Steam$",
+            "TargetJs": "js/localizer.js"
+        },
+        {
+            "MatchRegexString": "^Steam$",
+            "TargetCss": "css/libraryroot.custom.css",
+            "TargetJs": "js/libraryroot.custom.js"
+        },
+        {
+            "MatchRegexString": ".friendsui-container",
+            "TargetCss": "css/friends.custom.css",
+            "TargetJs": "js/friends.custom.js"
+        },
+        {
+            "MatchRegexString": "^Steam Overlay.*",
+            "TargetCss": "css/overlay.custom.css"
+        },
+        {
+            "MatchRegexString": "Notifications$",
+            "TargetCss": "css/notifications.custom.css"
+        },
+        {
+            "MatchRegexString": ".*",
+            "TargetCss": "css/menu.custom.css"
+        }
+    ],
+    "Conditions": {
+        "Theme Switch": {
+            "description": "Switch between dark and light theme",
+            "default": "dark",
+            "tab": "General",
+            "values": {
+                "dark": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "css/dark.css"
+                    }
+                },
+                "light": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "css/light.css"
+                    }
+                }
+            }
+        },
+        "Corner Radius": {
+            "description": "Set the corner radius size for UI elements",
+            "default": "medium",
+            "tab": "Style",
+            "values": {
+                "small": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "css/radius-small.css"
+                    }
+                },
+                "medium": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "css/radius-medium.css"
+                    }
+                },
+                "large": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "css/radius-large.css"
+                    }
+                }
+            }
+        }
+    }
+}
